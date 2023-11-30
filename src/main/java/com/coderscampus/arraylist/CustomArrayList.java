@@ -14,7 +14,7 @@ public class CustomArrayList<T> implements CustomList<T> {
 
 	@Override
 	public int getSize() {
-		return itemsIndex - 1;
+		return itemsIndex;
 	}
 
 	@SuppressWarnings("unchecked")
